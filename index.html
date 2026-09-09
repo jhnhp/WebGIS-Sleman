@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="WebGIS sederhana Kabupaten Sleman berbasis Leaflet dengan data lokal.">
+  <title>WebGIS Infrastruktur dan Fasilitas Publik Kabupaten Sleman</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <h1>WebGIS Infrastruktur dan Fasilitas Publik Kabupaten Sleman</h1>
+      <p>Batas kecamatan, jaringan jalan, dan lokasi puskesmas</p>
+    </div>
+    <span class="badge">Leaflet • Local GeoJSON</span>
+  </header>
+
+  <main>
+    <div id="map"></div>
+    <div class="hint">
+      <strong>Petunjuk:</strong> gunakan panel layer untuk mengaktifkan/menonaktifkan layer.
+      Klik objek peta untuk melihat informasi atribut.
+    </div>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+  <script src="js/data_kecamatan.js"></script>
+  <script src="js/data_jalan.js"></script>
+  <script src="js/data_puskesmas.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
