@@ -1,0 +1,27 @@
+{
+  "source_crs": "EPSG:9489",
+  "output_crs": "EPSG:4326",
+  "source_admin_features": 86,
+  "output_kecamatan_features": 17,
+  "road_features": 347,
+  "puskesmas_features": 25,
+  "kecamatan_names": [
+    "Berbah",
+    "Cangkringan",
+    "Depok",
+    "Gamping",
+    "Godean",
+    "Kalasan",
+    "Minggir",
+    "Mlati",
+    "Moyudan",
+    "Ngaglik",
+    "Ngemplak",
+    "Pakem",
+    "Prambanan",
+    "Seyegan",
+    "Sleman",
+    "Tempel",
+    "Turi"
+  ]
+}
